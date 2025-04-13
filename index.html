@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1 id="typing"></h1>
+  <p>Showcasing My Skills and Information</p>
+</div>
+
+<div class="nav">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <button onclick="toggleTheme()" class="toggle-btn">Toggle Dark Mode</button>
+</div>
+
+<div class="container">
+  <div id="home" class="section">
+    <h2>Welcome to My Portfolio</h2>
+  </div>
+
+  <div id="about" class="section">
+    <h2>About Me</h2>
+    <img src="student_photo.jpg" alt="Student Photo" class="profile-img">
+    <p>Hello! I am a student passionate about learning and improving my skills.</p>
+  </div>
+
+  <div id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <h3>Programming</h3>
+        <p>Experienced in C# and XAMPP for database management.</p>
+      </div>
+      <div class="skill-item">
+        <h3>Graphic Design</h3>
+        <p>Proficient in Photoshop and Illustrator.</p>
+      </div>
+      <div class="skill-item">
+        <h3>Public Speaking</h3>
+        <p>Won multiple debate and speech competitions.</p>
+      </div>
+      <div class="skill-item">
+        <h3>Creative Writing</h3>
+        <p>Published articles and short stories.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="education" class="section">
+    <h2>My Education</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-item">
+        <p>Taykin Elementary School</p>
+        <p>2011–2017</p>
+      </div>
+      <div class="portfolio-item">
+        <p>Liliw National High School</p>
+        <p>2017–2021</p>
+      </div>
+      <div class="portfolio-item">
+        <p>Liliw Senior High School</p>
+        <p>2021–2023</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contact">
+  <p>Contact me at: gianalborida@gmail.com</p>
+  <p>Number: 09654453933</p>
+  <script src="script.js"></script>
+  </div>
+
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+  }
+  
+</script>
+</body>
+</html>
